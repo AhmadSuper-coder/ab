@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b0e9c9da4b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/color-1.css"   id="colorred" class="color-menu">
+
+    <link rel="stylesheet" href="css/color-2.css" disabled   id="colorblue" class="color-menu">
+
+    <link rel="stylesheet" href="css/color-4.css" disabled id="colororange" class="color-menu">
+
+    <link rel="stylesheet" href="css/color-5.css" disabled class="color-menu" id="colorgreen">
+
+
+    <title>my portfolio</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+
+            <!-- start left container main menu  -->
+            <div class="left" id="original-nav">
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="logo">
+                    <a href="#"> <span>Ahmad</span></a>
+                </div>
+                
+                <ul style="list-style-type: none;">
+                    <li class="main_menu" id="defaultOpen" onclick="openMenu(event,'Home')"><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'About')"><a href="#"><i class="fa fa-user"></i>About</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Services')"><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Portfolio')"><a href="#"><i class="fa fa-briefcase"></i>My work</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Contact')"><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                </ul>
+
+            </div>
+
+
+
+                <!-- new menu for mobile  -->
+
+            <div class="left" id="nav">
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="logo">
+                    <a href="#"> <span>Ahmad</span></a>
+                </div>
+                
+                <ul style="list-style-type: none;">
+                    <li class="main_menu" id="defaultOpen" onclick="openMenu(event,'Home')"><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'About')"><a href="#"><i class="fa fa-user"></i>About</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Services')"><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Portfolio')"><a href="#"><i class="fa fa-briefcase"></i>My work</a></li>
+                    <li class="main_menu" onclick="openMenu(event,'Contact')"><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                </ul>
+
+            </div>
+
+
+
+
+
+            <!-- end of left container main menu  -->
+
+            
+            <!-- start right container  -->
+            <div class="right">
+                <section id="Home" class="content">
+                    <div class="right-container">
+                        <div class="innerrow">
+                            <div class="home-info">
+                                <h3 class="hello">Hello, My name is <span class="name">Ahmad Raja</span></h3>
+    
+                                <h2 class="my-profession">I' m a <span class="auto-type"></span></h2>
+    
+                                <p>I'm a full stack developer with no experience. I am a fresher . My expertise is to create website design and develope backend of website and many more... </p>
+    
+                                <a href="" id="hire-me" onclick="hireMe(event,'Contact')" class="btn hire-me">More About Me</a>
+                            </div>
+    
+                            <div class="home-img">
+                                <img src="img/profile2-removebg-preview.png" alt="porfile image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+                <!-- aboutme section start form here  -->
+
+                <section id="About" class="content padd-15" >
+                    <div class="aboutmain">
+                        <div class="atitle">
+                            <h2>About me</h2>
+                        </div>
+                        <div class="line"></div>
+                        <div class="line2"></div>
+                        <h2 class="abhead">I 'm Ahmad Raja and <span> Full stack Developer</span></h2>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime mollitia eos atque numquam aut asperiores, alias labore. Mollitia soluta assumenda, suscipit a obcaecati porro beatae fuga sit voluptas ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nulla quisquam sint! Placeat reprehenderit similique eum repellendus hic sit quam a culpa, ratione, porro accusamus nostrum, laudantium quo eveniet iste?</p>
+                    </div>
+
+                    <div class="aboutrow padd-15">
+                        <div class="col padd-15">
+                            <div class="item">
+                                <p>Birthday <span>  21 may 2000</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>website <span>  www.domain.com</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>Degree <span>  CSE</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>City <span>  Bhopal</span></p>
+                            </div>
+                        </div>
+
+                        <div class="col padd-15">
+                            <div class="item">
+                                <p>Age <span> 22 year</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>Email <span>  ahmadraza001912@gmail.com</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>Phone <span>  +91-7470668602</span></p>
+                            </div>
+
+                            <div class="item">
+                                <p>Frelance <span>  Available</span></p>
+                            </div>
+                        </div>
+
+                        <div class="col padd-15 pad">
+                            <div class="skill">
+                                <div class="skill-item">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width:96%;"></div>
+                                        <div class="percentage">96%</div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <h5>CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width:86%;"></div>
+                                        <div class="percentage">86%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="skill-item">
+                                    <h5>JAVA SCRIPT</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width:69%;"></div>
+                                        <div class="percentage">69%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="skill-item">
+                                    <h5>PYTHON</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width:96%;"></div>
+                                        <div class="percentage">96%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="skill-item">
+                                    <h5>JAVA</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width:56%;"></div>
+                                        <div class="percentage">56%</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="button">
+                        <a href="#" class="btn1">download</a>
+                        <a href="#" class="btn1">Hire me</a>
+                    </div>
+
+
+
+
+                    <div class="rowed">
+                        <div class="leftcol">
+                            <div class="head">Education</div>
+
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2015-2016
+                                        </h3>
+                                        <h4 class="timeline-title">Matriculation </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! done byt the govt</p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+
+
+
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2016-2018
+                                        </h3>
+                                        <h4 class="timeline-title">Intermediate </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! circumstace it works</p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+
+
+
+
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2013-2015
+                                        </h3>
+                                        <h4 class="timeline-title">Bachelor of enginerring </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! web developer nedd ?</p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rightcol">
+                            <div class="head">Experience</div>
+
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2013-2015
+                                        </h3>
+                                        <h4 class="timeline-title">Bachelor of enginerring </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! task execution </p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+
+
+
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2013-2015
+                                        </h3>
+                                        <h4 class="timeline-title">Bachelor of enginerring </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! work hard for code</p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+
+
+
+
+                                    <!-- =====timeline item start here =========== -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+                                        <h3 class="timeline-data">
+                                            <i class="fa fa-calendar"></i>2013-2015
+                                        </h3>
+                                        <h4 class="timeline-title">Bachelor of enginerring </h4>
+                                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias vitae rem commodi, laboriosam quisquam, suscipit necessitatibus quam ex cum doloremque? Vitae magnam aspernatur et ea? Quas voluptas dolorem culpa! mini milistic workd</p>
+                                    </div>
+
+                                    <!-- =====timeline item start here =========== -->
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </section>
+
+                <!-- aboutme section end here  -->
+
+
+               
+                <!-- service section start from heree -->
+                <section id="Services" class="content padd-15">
+                    <div class="services-main">
+                        <div class="stitle">
+                            <h2>Services</h2>
+                        </div>
+                        <div class="line"></div>
+                        <div class="line2"></div>
+
+                        <div class="main-row">
+                            <!-- =========item1========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                                <div class="item-title">full stack website</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Animi ut, provident facilis natus, illo Animi ut, provident facilis natus, illo advance industry</div>
+                            </div>
+
+                            <!-- =========item2========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-solid fa-laptop"></i></div>
+                                <div class="item-title">resume builder</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ut, provident facilis natus, illo Animi ut, provident facilis natus, illo</div>
+                            </div>
+
+                            <!-- =========item3========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-solid fa-palette"></i></div>
+                                <div class="item-title">card designing</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet cons Animi ut, provident facilis natus, illo ectetur adipisicing elit. Animi ut, provident facilis natus, desing by </div>
+                            </div>
+
+
+
+                            <!-- =========item4========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-brands fa-pinterest"></i></div>
+                                <div class="item-title">Search engine optimization</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet co Animi ut, provident facilis natus, illo nsectetur adipisicing elit. Animi ut, provident facilis natus, illo</div>
+                            </div>
+
+                            <!-- =========item5========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-solid fa-database"></i></div>
+                                <div class="item-title">Affliate Marketting</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet consectetur adipisi Animi ut, provident facilis natus, illo cing elit. Animi ut, provident facilis natus, illo </div>
+                            </div>
+
+
+                            <!-- =========item6========== -->
+                            <div class="item">
+                                <div class="item-logo"><i class="fa-solid fa-code"></i></div>
+                                <div class="item-title">web design</div>
+                                <div class="item-desc">Lorem ipsum dolor sit amet consectetur adipisic Animi ut, provident facilis natus, illo ing elit. Animi ut, provident facilis natus, illo
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- service section end here - -->
+            
+
+
+
+
+
+                 <!-- portfolio section start from heree -->
+                 <section id="Portfolio" class="content padd-15">
+                    <div class="port-main">
+                        <div class="atitle">
+                            <h2>My personal projects</h2>
+                        </div>
+                        <div class="line"></div>
+                        <div class="line2"></div>
+
+
+                        <div class="main-row">
+                            <!-- =========item1========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img1.jpg" alt="image1">
+                                </div>
+                            </div>
+
+                            <!-- =========item2========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img2.jpg" alt="image1">
+                                </div>
+                            </div>
+
+                            <!-- =========item3========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img3.jpg" alt="image1">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="main-row">
+                            <!-- =========item1========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img4.jpg" alt="image1">
+                                </div>
+                            </div>
+
+                            <!-- =========item2========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img5.jpg" alt="image1">
+                                </div>
+                            </div>
+
+                            <!-- =========item3========== -->
+                            <div class="item">
+                                <div class="item-logo">
+                                    <img src="img/img6.jpg" alt="image1">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- portfoilo section end here - -->
+
+
+
+
+                 <!-- contact section start from heree -->
+                <section id="Contact" class="content padd-15">
+                    <div class="contact-main">
+                        <div class="atitle">
+                            <h2>Contact Me</h2>
+                        </div>
+                        <div class="line"></div>
+                        <div class="line2"></div>
+
+
+                        <div class="question">
+                            <h2>Have you any question ?</h2>
+                            <h4>I am at your service</h4>
+                        </div>
+
+                        <div class="contact">
+                            <div class="con">
+                                <div class="logo"><i class="fa-solid fa-phone-flip"></i></div>
+                                <div class="logohead">call us on</div>
+                                <div class="info">+7470668602</div>
+                            </div>
+
+
+                            <div class="con">
+                                <div class="logo"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="logohead">office</div>
+                                <div class="info">near piplani</div>
+                            </div>
+
+
+                            <div class="con">
+                                <div class="logo"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="logohead">email</div>
+                                <div class="info">ahmadraza001<br>@gmail.com</div>
+                            </div>
+
+
+
+                            <div class="con">
+                                <div class="logo"><i class="fa-solid fa-pen-nib"></i></i></div>
+                                <div class="logohead">website</div>
+                                <div class="info">coadingx.<br>blogspot.com</div>
+                            </div>
+
+
+                            
+                        </div>
+
+
+                        <div class="send-email">
+                            <h2>SEND ME AN EMAIL</h2>
+                            <h4>I'm very responsive to message</h4>
+                        </div>
+
+
+
+                        <div class="contact-form">
+                            <form action="">
+                                <div class="name-email">
+                                    <input type="text" name="fname" id="name" placeholder="your name">
+                                    <input type="email" name="email" id="email" placeholder="email here">
+                                </div>
+    
+                                <div class="subject">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                                </div>
+    
+                                <div class="message">
+                                    <textarea name="message" id="message" cols="50" rows="7"></textarea>
+                                </div>
+
+
+                                <input type="submit" value="submit" class="btn">
+                            </form>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <!-- conact section end here - -->
+
+
+
+
+
+
+                <!-- color switcher start form here  -->
+                <div id="color-switch">
+                    <div class="color color-1" id="color-red" onclick="openColor()" id="defaulclick">
+
+                    </div>
+
+                    <div class="color color-2" id="color-blue" onclick="openColor()">
+                        
+                    </div>
+
+                    <div class="color color-4" id="color-orange" onclick="openColor()">
+                        
+                    </div>
+
+                    <div class="color color-5" id="color-green"onclick="openColor()">
+                        
+                    </div>
+
+
+                    
+                </div>
+
+                <div id="setting" onclick="openSwitcher()">
+                    <i class="fas fa-cog fa-spin "></i>
+                </div>
+
+            </div>
+            <!-- end rigth container -->
+        </div>
+
+        <button id="toggler" style="display: none;" onclick="openNav()" ><i class="fa fa-bars fa-xl"></i></button>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
